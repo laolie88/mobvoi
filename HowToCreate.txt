@@ -1,0 +1,18 @@
+1. generate ssh-keygen -t rsa -C "jgdu@vw-mobvoi.com"
+2. Go to gerrit, attached the key.
+3. Go to ls -al ~/.ssh
+
+4. confurate user and mail.
+$ git config --global user.name "jgdu"
+$ git config --global user.email jgdu@mobvoi.com
+
+
+5 Go to gerrit Clone url
+git clone git@github.com:laolie88/mobvoi.git
+
+6.git add .
+  git commit -m "comment"
+  git push origin master
+
+
+
